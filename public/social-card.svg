@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Relic Rush</title>
+  <desc id="desc">Steal the relic. Escape the dungeon.</desc>
+  <defs>
+    <radialGradient id="background" cx="75%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#4b257a"/>
+      <stop offset="48%" stop-color="#17132f"/>
+      <stop offset="100%" stop-color="#090b18"/>
+    </radialGradient>
+    <radialGradient id="relic" cx="35%" cy="20%" r="90%">
+      <stop offset="0%" stop-color="#fff1a5"/>
+      <stop offset="45%" stop-color="#ff9f43"/>
+      <stop offset="100%" stop-color="#8f3a7e"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <circle cx="930" cy="310" r="190" fill="#ff9f43" opacity=".12"/>
+  <ellipse cx="930" cy="310" rx="265" ry="145" fill="none" stroke="#ffd166" stroke-opacity=".45" stroke-width="2"/>
+  <ellipse cx="930" cy="310" rx="160" ry="230" fill="none" stroke="#9d6cff" stroke-opacity=".4" stroke-width="2" transform="rotate(35 930 310)"/>
+  <path d="M930 145c72 0 105 57 94 125l-21 140c-8 49-37 77-73 77s-65-28-73-77l-21-140c-11-68 22-125 94-125Z" fill="url(#relic)" stroke="#ffbe62" stroke-width="8"/>
+  <circle cx="895" cy="255" r="14" fill="#fff1a5"/>
+  <circle cx="965" cy="350" r="14" fill="#fff1a5"/>
+  <text x="85" y="190" fill="#ff9f43" font-family="Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="7">MULTIPLAYER EXTRACTION RPG</text>
+  <text x="80" y="315" fill="#fff8df" font-family="Arial, sans-serif" font-size="92" font-weight="900" letter-spacing="-5">RELIC</text>
+  <text x="80" y="410" fill="#ffd166" font-family="Arial, sans-serif" font-size="92" font-weight="900" letter-spacing="-5">RUSH</text>
+  <text x="86" y="475" fill="#c8cbe0" font-family="Arial, sans-serif" font-size="25">STEAL THE RELIC. ESCAPE THE DUNGEON.</text>
+</svg>

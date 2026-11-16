@@ -1,0 +1,14 @@
+{
+  "name": "relicrush-io",
+  "version": "1.0.0",
+  "description": "Relic Rush.io multiplayer dungeon extraction RPG",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  }
+}
